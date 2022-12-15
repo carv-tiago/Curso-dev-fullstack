@@ -1,0 +1,31 @@
+body {
+    background-color: #b4aaaa;
+} 
+
+p {
+    color: rgb(235, 37, 37);
+}
+
+.foto-principal {
+  width: 200px;
+  border: 5px solid #FFFFFF; /*1º espessura da borda em pixeis; 2º tipo de borda - sólido; 3º cor da borda - preto; podemos procurar outros tipos de border em "www.w3schools.com */
+
+  /*
+  border-width: 5px;
+  border-style: solid;
+  border-color: black;
+  */
+  /*tanto se podem escrever 3 linhas de código para cada característica como apenas uma com as mesmas caraterísticas - chama-se "shorthand"*/
+  border-radius: 50%; /*arredonda as bordas da classe imagem; pode ser descrito em px ou em %; 50% corresponde a bordas bem arredondadas*/
+
+  /*border-radius: 50% 10% 30% 70%; define pela ordem de escrita a borda do canto superior esquerdo, direito, inferior direito e esquerdo (sentido horário)*/
+    
+  margin-top: 30px;
+  margin-bottom: 100px;
+  margin-left: 500px; /*definindo assim por px a imagem fica fixa mesmo quando se minimiza a tela, o que não se torna adequado*/
+  /* margin: 30px 30px 30px 30px;  /* versão short-hand onde são 1º margin top 2º margin right; 3º margin bottom; 4º margin left*/
+
+  padding: 10px; /*na ausência de definição para as outras margins, elas são assumidas com o valor da 1ª*/
+  /*padding dá um espaçamento interno enquanto que margin dá um espaçamento externo*/
+
+}

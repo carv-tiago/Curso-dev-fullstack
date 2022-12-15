@@ -1,0 +1,12 @@
+body {
+    background-image: url(background.jpe); /* coloca uma imagem no background da tela que a preenche por completo por repetição*/
+    background-repeat: no-repeat; /*faz com que a imagem não se repita pela tela*/
+    /* background-position: 100% 10%; posiciona a imagem na página (primeiramente da ESQUERDA e depois do TOPO */
+    background-position: center center; /* coloca a imagem no centro lateral e no centro altura*/
+    background-size: cover; /* a imgem cobre toda a tela sem se repetir*/
+    background-attachment: fixed; /* a imagem em background fica fixa e não se move com o scroll da página */
+} 
+
+p {
+    color: rgb(235, 37, 37);
+}
